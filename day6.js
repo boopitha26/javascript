@@ -31,7 +31,7 @@ function removeemp(id){
     removeemp(1)
     //calculate total salary
     function totalsalary(){
-        const total =employee.reduce((sum,emp) =>sumemp.salary,0);
+        const total =employee.reduce((sum,emp) =>sum+emp.salary,0);
         console.log("total salary is",total);
     }
     totalsalary()
